@@ -1,6 +1,6 @@
 const provider = window.ethereum ? new ethers.providers.Web3Provider(window.ethereum, 'any') : null;
 
-// Wondering where I got these? Check out README.md in /contract folder.
+// Wondering where I got these? Check out README.md.
 const basicContract = {
     address:     '0xFe388d60d2974666204aF998097Cbb58224aAe66',
     abiLocation: '/abi/basicContract.abi'
