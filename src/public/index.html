@@ -12,7 +12,10 @@
 
 <body class="container h-100 d-flex flex-column align-items-center justify-content-center">
     <div class="row py-3">
-        <span class="fs-3">Ethereum Connect Demo Project</span>
+        <div class="col d-flex flex-column align-items-center justify-content-center">
+            <span class="fs-3">Ethereum Connect Demo Project</span>
+            <span>Please ensure you are using the Ropsten test network</span>
+        </div>
     </div>
     <div class="row py-3">
         <div id="output-message" class="container col">
@@ -22,6 +25,12 @@
     <div class="row py-3">
         <div class="container col">
             <button type="button" onclick="connect()" class="btn btn-primary col">Connect</button>
+        </div>
+        <div class="container col">
+            <button type="button" onclick="mint10ETC()" class="btn btn-primary col">Mint 10ETC</button>
+        </div>
+        <div class="container col">
+            <button type="button" onclick="totalSupply()" class="btn btn-primary col">Total Supply</button>
         </div>
     </div>
 
