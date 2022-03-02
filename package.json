@@ -1,0 +1,23 @@
+{
+  "name": "ethereum-connect",
+  "version": "1.0.0",
+  "description": "A tiny front-end project which demonstrates how to perform various functions on the Ethereum network via Metamask",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremysik/ethereum-connect.git"
+  },
+  "author": "Jeremy Sik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeremysik/ethereum-connect/issues"
+  },
+  "homepage": "https://github.com/jeremysik/ethereum-connect#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

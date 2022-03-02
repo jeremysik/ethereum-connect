@@ -1,0 +1,8 @@
+#output-message {
+    color:         black;
+    border-color:  black;
+    border-radius: 0.5rem;
+    border-style:  outset;
+    border:        1px solid;
+    padding:       1rem 1rem;
+}

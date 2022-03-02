@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-us" class="h-100" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport"           content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet"    href="/lib/bootstrap.min.css">
+    <link rel="stylesheet"    href="/style.css">
+</head>
+
+<body class="container h-100 d-flex flex-column align-items-center justify-content-center">
+    <div class="row py-3">
+        <span class="fs-3">Ethereum Connect Demo Project</span>
+    </div>
+    <div class="row py-3">
+        <div id="output-message" class="container col">
+            <p>To begin, click one of the buttons below.</p>
+        </div>
+    </div>
+    <div class="row py-3">
+        <div class="container col">
+            <button type="button" onclick="connect()" class="btn btn-primary col">Connect</button>
+        </div>
+    </div>
+
+    <script src="/lib/ethers.umd.min.js"       type="application/javascript"></script>
+    <script src="/lib/bootstrap.bundle.min.js" type="application/javascript"></script>
+    <script src="/script.js"                   type="application/javascript"></script>
+</body>
+
+</html>
